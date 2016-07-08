@@ -1,5 +1,7 @@
+import pluralize from '../helpers';
+
 export default (data) => {
-  return [
+  let words = [
     'aardvark',
     'abalone',
     'African gray parrot',
@@ -816,5 +818,7 @@ export default (data) => {
     'zooplankton',
     'zorilla',
     'zorro'
-  ].join('|');
+  ];
+
+  return pluralize(words);
 }
