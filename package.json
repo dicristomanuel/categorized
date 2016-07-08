@@ -8,7 +8,7 @@
     "prepublish": "npm run build",
     "test": "mocha",
     "start": "node index.js",
-    "debug": "node debug index.js"A
+    "debug": "node debug index.js"
   },
   "author": "",
   "license": "ISC",
