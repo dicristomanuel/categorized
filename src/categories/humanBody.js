@@ -43,7 +43,6 @@ let words = [
   'ear',
   'ear lobe',
   'elbow',
-  'E cont.',
   'endocrine system',
   'esophagus',
   'eye',

@@ -55,7 +55,6 @@ let words = [
   'disk',
   'DNS (domain name system)',
   'document',
-  'D (cont.)',
   'domain',
   'domain name',
   'dot',

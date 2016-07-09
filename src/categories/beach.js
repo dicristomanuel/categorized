@@ -93,7 +93,6 @@ let words = [
   'sunbathe',
   'sunburn',
   'sunglasses',
-  'S cont.',
   'sun hat',
   'sunscreen',
   'suntan',

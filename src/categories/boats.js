@@ -178,7 +178,6 @@ let words = [
   'ski boat',
   'skipjack',
   'sloop',
-  'S cont.',
   'speedboat',
   'spinnaker',
   'starboard',

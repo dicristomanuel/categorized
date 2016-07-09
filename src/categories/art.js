@@ -149,7 +149,6 @@ let words = [
   'sculpt',
   'sculptor',
   'sculpture',
-  'S cont.',
   'seascape',
   'secondary color',
   'shade',
