@@ -9,6 +9,7 @@ export default (sentence) => {
     const regex = new RegExp(`\\b(${categories[cat]()})\\b`, 'igm');
     let match = sentence.match(regex);
     if (match) {
+      debugger;
       contexts.push(cat);
       matched.push(match);
     }

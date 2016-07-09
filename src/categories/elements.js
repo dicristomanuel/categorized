@@ -106,7 +106,6 @@ let words = [
   'Meitnerium',
   '(Mt)',
   'Mendelevium',
-  '()',
   'Mercury',
   '(Hg)',
   'Molybdenum',
