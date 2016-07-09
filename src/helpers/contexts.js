@@ -1,10 +1,19 @@
 import _ from 'lodash';
 import pluralize from 'pluralize';
+import categories from '../categories';
 
-export default (sentence, regex) => {
-  let finalContexts = [];
-  sentence.match(regex).forEach((word) => {
-    finalContexts.push(pluralize(word, 1));
-  })
-  return _.uniq(finalContexts);
+export default (sentence) => {
+  let contexts = [];
+  let matched = [];
+
+  for (let cat in categories) {
+    const regex = new RegExp(`\\b(${categories[cat]()})\\b`, 'igm');
+    let match = sentence.match(regex);
+    if (match) {
+      contexts.push(cat);
+      matched.push(match);
+    }
+  }
+
+  return {contexts, matched:   _.uniq(_.flattenDeep(matched))};
 };
