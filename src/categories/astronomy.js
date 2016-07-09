@@ -38,7 +38,6 @@ let words = [
   'crater',
   'crescent moon',
   'dark matter',
-  'day',
   'declination',
   'deep space',
   'Deneb',

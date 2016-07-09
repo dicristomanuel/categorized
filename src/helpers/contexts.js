@@ -1,5 +1,4 @@
 import _ from 'lodash';
-import pluralize from 'pluralize';
 import categories from '../categories';
 
 export default (sentence) => {
@@ -15,5 +14,5 @@ export default (sentence) => {
     }
   }
 
-  return {contexts, matched:   _.uniq(_.flattenDeep(matched))};
+  return {contexts, matched: _.uniq(_.flattenDeep(matched))};
 };
