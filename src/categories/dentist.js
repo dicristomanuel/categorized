@@ -42,7 +42,6 @@ let words = [
   'diagnosis',
   'diploma',
   'drill',
-  'eat',
   'education',
   'enamel',
   'endodontics',

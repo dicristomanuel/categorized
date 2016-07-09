@@ -117,7 +117,6 @@ let words = [
   'water',
   'water bottle',
   'waves',
-  'weekend',
   'wet',
   'wharf',
   'whitecaps',

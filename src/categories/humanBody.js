@@ -12,7 +12,6 @@ let words = [
   'arch',
   'arm',
   'artery',
-  'back',
   'ball of the foot',
   'belly',
   'belly button',
