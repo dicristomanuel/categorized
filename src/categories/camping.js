@@ -35,7 +35,6 @@ let words = [
   'lake',
   'lantern',
   'map',
-  'moon',
   'mountain',
   'national park',
   'natural',
