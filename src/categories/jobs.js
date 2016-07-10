@@ -249,7 +249,7 @@ let words = [
   'smith',
   'singer',
   'socialite',
-  'software engineer'
+  'software engineer',
   'soldier',
   'spy',
   'star',
