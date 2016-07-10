@@ -45,6 +45,10 @@ import geography from './geography';
 import grammarTerms from './grammarTerms';
 import halloween from './halloween';
 import happiness from './happiness';
+import hat from './hat';
+import herbsAndSpices from './herbsAndSpices';
+import holidays from './holidays';
+import house from './house';
 // ...
 import greetings from './greetings';
 import humanBody from './humanBody';
@@ -100,6 +104,10 @@ export default {
   grammarTerms,
   halloween,
   happiness,
+  hat,
+  herbsAndSpices,
+  holidays,
+  house,
   greetings,
   humanBody,
   office,
