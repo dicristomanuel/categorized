@@ -101,7 +101,6 @@ let words = [
   'lights',
   'list',
   'log',
-  'love',
   'manger',
   'merry',
   'Merry Christmas',

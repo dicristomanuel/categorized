@@ -6,7 +6,6 @@ import autumn from './autumn';
 import baseball from './baseball';
 import bathroom from './bathroom';
 import beach from './beach';
-import big from './big';
 import biome from './biome';
 import birds from './birds';
 import birthday from './birthday';
@@ -35,10 +34,22 @@ import elements from './elements';
 import emotions from './emotions';
 import energy from './energy';
 import family from './family';
+import farm from './farm';
+import fireFighting from './fireFighting';
+import fish from './fish';
+import flowers from './flowers';
+import food from './food';
+import fruit from './fruit';
+import furniture from './furniture';
+import geography from './geography';
+import grammarTerms from './grammarTerms';
+import halloween from './halloween';
+import happiness from './happiness';
 // ...
 import greetings from './greetings';
 import humanBody from './humanBody';
 import office from './office';
+import people from './people';
 import politics from './politics';
 
 export default {
@@ -50,7 +61,6 @@ export default {
   baseball,
   bathroom,
   beach,
-  big,
   biome,
   birds,
   birthday,
@@ -79,8 +89,20 @@ export default {
   emotions,
   energy,
   family,
+  farm,
+  fireFighting,
+  fish,
+  flowers,
+  food,
+  fruit,
+  furniture,
+  geography,
+  grammarTerms,
+  halloween,
+  happiness,
   greetings,
   humanBody,
   office,
+  people,
   politics
 }
