@@ -49,12 +49,33 @@ import hat from './hat';
 import herbsAndSpices from './herbsAndSpices';
 import holidays from './holidays';
 import house from './house';
+import humanBody from './humanBody';
+import insects from './insects';
+import jobs from './jobs';
+import kitchen from './kitchen';
+import landforms from './landforms';
+import languages from './languages';
+import leaders from './leaders';
+import legalTerms from './legalTerms';
+import mammals from './mammals';
+import MartinLutherKingJr from './MartinLutherKingJr';
+import mathAndNumbers from './mathAndNumbers';
+import measurements from './measurements';
+import metals from './metals';
+import military from './military';
+import money from './money';
+import monsters from './monsters';
+import mothersDay from './mothersDay';
+import musicalInstruments from './musicalInstruments';
+import musicTheory from './musicTheory';
+import negative from './negative';
+import newYearsEve from './newYearsEve';
 // ...
 import greetings from './greetings';
-import humanBody from './humanBody';
 import office from './office';
 import people from './people';
 import politics from './politics';
+import swearWords from './swearWords';
 
 export default {
   amphibian,
@@ -108,9 +129,30 @@ export default {
   herbsAndSpices,
   holidays,
   house,
-  greetings,
   humanBody,
+  insects,
+  jobs,
+  kitchen,
+  landforms,
+  languages,
+  leaders,
+  legalTerms,
+  mammals,
+  MartinLutherKingJr,
+  mathAndNumbers,
+  measurements,
+  metals,
+  military,
+  money,
+  monsters,
+  mothersDay,
+  musicalInstruments,
+  musicTheory,
+  negative,
+  newYearsEve,
+  greetings,
   office,
   people,
-  politics
+  politics,
+  swearWords
 }
