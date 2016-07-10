@@ -1,3 +1,5 @@
+import pluralize from '../helpers/pluralize';
+
 let words = [
   'adder',
   'African rock python',
@@ -98,5 +100,5 @@ let words = [
 ];
 
 export default (data) => {
-  return words.join('|')
+  return pluralize(words);
 }
