@@ -3711,7 +3711,6 @@ let words = [
   'WeatherTech',
   'Phil Stefani Signature Restaurants',
   'Tom Douglas Restaurants'
-
 ]
 
 export default (data) => {
