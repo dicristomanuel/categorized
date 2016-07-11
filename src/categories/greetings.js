@@ -38,7 +38,9 @@ let words = [
   'konnichiwa',
   'what have you been up to',
   'how are ya',
-  'what’s crackin'
+  'what’s crackin',
+  'aves',
+  'salute'
 ]
 
 export default (data) => {

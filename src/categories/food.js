@@ -205,6 +205,7 @@ let words = [
   'greenbean',
   'greens',
   'green tea',
+  'grocery',
   'grub',
   'guacamole',
   'guava',

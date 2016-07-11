@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import categories from '../categories';
+import { findInSentence } from 'smart-city-finder';
 
 export default (sentence) => {
   let contexts = [];
