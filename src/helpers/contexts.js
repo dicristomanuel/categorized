@@ -2,7 +2,7 @@ import _ from 'lodash';
 import categories from '../categories';
 import { findInSentence } from 'smart-city-finder';
 
-export default (sentence) => {
+export default (sentence, options = {}) => {
   let contexts = [];
   let matched = [];
 
@@ -15,5 +15,13 @@ export default (sentence) => {
     }
   }
 
-  return {contexts, matched: _.uniq(_.flattenDeep(matched))};
+  if (options.location && options.location === true) {
+    const location = findInSentence(sentence, 1);
+    return {
+      contexts: [...contexts, 'location'],
+      matched: _.uniq(_.flattenDeep([...matched, location[0].matched]))
+    }
+  }
+
+  return { contexts, matched: _.uniq(_.flattenDeep(matched)) };
 };
