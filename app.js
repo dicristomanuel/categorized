@@ -1,7 +1,5 @@
-import Categorized from './src/categorized';
+'use strict';
 
-const sentence = 'Give me a discount to buy groceries in chicago'.replace(/[^a-zA-Z0-9]\s/g, '');
+var _src = require('./src');
 
-let instance = new Categorized()
-instance.teach()
-debugger;
+(0, _src.toReg)(_src.amphibian);

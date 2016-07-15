@@ -1,6 +1,16 @@
-import pluralize from '../helpers/pluralize';
+'use strict';
 
-let words = [
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pluralize = require('./helpers/pluralize');
+
+var _pluralize2 = _interopRequireDefault(_pluralize);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+let terms = [
   'amphibian',
   'amphiuma',
   'army of frogs',
@@ -87,6 +97,4 @@ let words = [
   'yellow legged frog'
 ];
 
-export default (data) => {
-  return pluralize(words);
-}
+exports.default = (0, _pluralize2.default)(terms);
